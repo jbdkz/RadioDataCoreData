@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		B16E713C1F68BF810085FA4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16E713B1F68BF810085FA4E /* AppDelegate.swift */; };
-		B16E713E1F68BF810085FA4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16E713D1F68BF810085FA4E /* ViewController.swift */; };
 		B16E71411F68BF810085FA4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16E713F1F68BF810085FA4E /* Main.storyboard */; };
 		B16E71441F68BF810085FA4E /* RadioDataCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B16E71421F68BF810085FA4E /* RadioDataCoreData.xcdatamodeld */; };
 		B16E71461F68BF810085FA4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B16E71451F68BF810085FA4E /* Assets.xcassets */; };
 		B16E71491F68BF810085FA4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16E71471F68BF810085FA4E /* LaunchScreen.storyboard */; };
+		B16E71511F68C6EC0085FA4E /* ListRadios.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16E71501F68C6EC0085FA4E /* ListRadios.swift */; };
+		B16E71531F68C7000085FA4E /* AddEditRadio.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16E71521F68C7000085FA4E /* AddEditRadio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B16E71381F68BF810085FA4E /* RadioDataCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioDataCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B16E713B1F68BF810085FA4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B16E713D1F68BF810085FA4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B16E71401F68BF810085FA4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B16E71431F68BF810085FA4E /* RadioDataCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RadioDataCoreData.xcdatamodel; sourceTree = "<group>"; };
 		B16E71451F68BF810085FA4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B16E71481F68BF810085FA4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B16E714A1F68BF810085FA4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B16E71501F68C6EC0085FA4E /* ListRadios.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListRadios.swift; path = ../ListRadios.swift; sourceTree = "<group>"; };
+		B16E71521F68C7000085FA4E /* AddEditRadio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEditRadio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				B16E713B1F68BF810085FA4E /* AppDelegate.swift */,
-				B16E713D1F68BF810085FA4E /* ViewController.swift */,
+				B16E71501F68C6EC0085FA4E /* ListRadios.swift */,
+				B16E71521F68C7000085FA4E /* AddEditRadio.swift */,
 				B16E713F1F68BF810085FA4E /* Main.storyboard */,
 				B16E71451F68BF810085FA4E /* Assets.xcassets */,
 				B16E71471F68BF810085FA4E /* LaunchScreen.storyboard */,
@@ -139,9 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B16E713E1F68BF810085FA4E /* ViewController.swift in Sources */,
 				B16E71441F68BF810085FA4E /* RadioDataCoreData.xcdatamodeld in Sources */,
 				B16E713C1F68BF810085FA4E /* AppDelegate.swift in Sources */,
+				B16E71511F68C6EC0085FA4E /* ListRadios.swift in Sources */,
+				B16E71531F68C7000085FA4E /* AddEditRadio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
